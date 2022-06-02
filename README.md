@@ -23,7 +23,7 @@ Nanoclusters are remarkably promising for the capture and activation of small mo
 
 Use K-Means with energy and silhouette criteria to cluster all local minima visited in BHMC process (obtained from GOTNANO global optimization runs).
 
-### 01_pca.py
+### 01_tsne.py
 
 Apply t-SNE on MD data to plot a 2D projection of the data, potential energy surface and 2D density of samples estimation. This script also outputs XYZ coordinates, where X and Y are 2D coordinates of the t-SNE projection of the MD data and Z is the energy data.
 
